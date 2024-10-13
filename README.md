@@ -1,7 +1,7 @@
 # thismoviesucks.com Documentation
 
 ## Overview
-**thismoviesucks.com** is a  user-friendly movie review platform designed for those who love watching movies but love roasting them even more. Users can log in, browse movies by genre, leave reviews, and add films to their watchlists or favorites.
+**thismoviesucks.com** is a  user-friendly movie review platform. Users can log in, browse movies by genre, leave reviews, and add films to their watchlists or favorites.
 
 ## Features
 
@@ -28,7 +28,6 @@
   - Wishlist
   - Currently watching movies
 
-## Design Details
 
 ## Installation
 
