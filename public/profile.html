@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thismoviesucks.com: User Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        charcoal: '#333333',
+                        vibrantOrange: '#FF5733',
+                        steelGray: '#B0B4B6',
+                        iceWhite: '#F7F7F7',
+                        softBlue: '#87CEEB',
+                    },
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-iceWhite text-charcoal min-h-screen flex flex-col font-poppins">
+    <header class="bg-charcoal text-iceWhite shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-semibold">thismoviesucks.com: User Profile</h1>
+            <button id="logout-btn" class="bg-vibrantOrange hover:bg-opacity-90 text-iceWhite px-4 py-2 rounded transition duration-300 flex items-center">
+                <i class="fas fa-sign-out-alt mr-2"></i> Logout
+            </button>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-6 py-8">
+        <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+            <h2 class="text-3xl font-semibold mb-8 text-center text-charcoal">Welcome, <span id="profile-username" class="text-vibrantOrange">User</span>!</h2>
+
+            <!-- Favorites Section -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold mb-4 text-charcoal flex items-center">
+                    <i class="fas fa-star text-vibrantOrange mr-2"></i> Favorites
+                </h3>
+                <p id="favorites-list" class="bg-iceWhite p-4 rounded border border-steelGray">Loading...</p>
+            </div>
+
+            <!-- Watched Section -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold mb-4 text-charcoal flex items-center">
+                    <i class="fas fa-check-circle text-softBlue mr-2"></i> Watched
+                </h3>
+                <p id="watched-list" class="bg-iceWhite p-4 rounded border border-steelGray">Loading...</p>
+            </div>
+
+            <!-- Watching Section -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold mb-4 text-charcoal flex items-center">
+                    <i class="fas fa-play-circle text-softBlue mr-2"></i> Watching
+                </h3>
+                <p id="watching-list" class="bg-iceWhite p-4 rounded border border-steelGray">Loading...</p>
+            </div>
+
+            <!-- Wishlist Section -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold mb-4 text-charcoal flex items-center">
+                    <i class="fas fa-list text-softBlue mr-2"></i> Wishlist
+                </h3>
+                <p id="wishlist-list" class="bg-iceWhite p-4 rounded border border-steelGray">Loading...</p>
+            </div>
+
+            <div class="mt-12 text-center">
+                <button id="back-btn" class="bg-vibrantOrange hover:bg-opacity-90 text-iceWhite font-semibold py-3 px-6 rounded transition duration-300 flex items-center mx-auto">
+                    <i class="fas fa-home mr-2"></i> Back to Home
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-charcoal text-center py-4 text-steelGray mt-auto">
+        <p class="text-sm">&copy; 2024 Modern Movie Review. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

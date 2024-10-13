@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thismoviesucks.com</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        charcoal: '#333333',
+                        vibrantOrange: '#FF5733',
+                        steelGray: '#B0B4B6',
+                        iceWhite: '#F7F7F7',
+                        softBlue: '#87CEEB',
+                    },
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-iceWhite text-charcoal min-h-screen flex flex-col font-poppins">
+    <header class="bg-charcoal text-iceWhite shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-semibold">thismoviesucks.com: Movie Details</h1>
+            <button id="logout-btn" class="bg-vibrantOrange hover:bg-opacity-90 text-iceWhite px-4 py-2 rounded transition duration-300 flex items-center">
+                <i class="fas fa-sign-out-alt mr-2"></i> Logout
+            </button>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-6 py-8">
+        <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+            <h1 id="movie-title" class="text-3xl font-bold mb-4 text-charcoal">Movie Title</h1>
+            <p id="movie-description" class="mb-6 text-steelGray">Movie Description</p>
+
+            <div class="flex flex-wrap gap-3 mb-6">
+                <button onclick="addToList('favorites')" class="bg-vibrantOrange hover:bg-opacity-90 text-iceWhite font-semibold py-2 px-4 rounded flex items-center transition duration-300">
+                    <i class="fas fa-star mr-2"></i> Add to Favorites
+                </button>
+                <button onclick="addToList('watched')" class="bg-softBlue hover:bg-opacity-90 text-charcoal font-semibold py-2 px-4 rounded flex items-center transition duration-300">
+                    <i class="fas fa-check mr-2"></i> Add to Watched
+                </button>
+                <button onclick="addToList('watching')" class="bg-softBlue hover:bg-opacity-90 text-charcoal font-semibold py-2 px-4 rounded flex items-center transition duration-300">
+                    <i class="fas fa-play mr-2"></i> Add to Watching
+                </button>
+                <button onclick="addToList('wishlist')" class="bg-softBlue hover:bg-opacity-90 text-charcoal font-semibold py-2 px-4 rounded flex items-center transition duration-300">
+                    <i class="fas fa-list mr-2"></i> Add to Wishlist
+                </button>
+            </div>
+
+            <!-- Reviews Section -->
+            <div class="mt-8">
+                <h2 class="text-2xl font-semibold mb-4 text-charcoal">Reviews</h2>
+                <ul id="reviews-list" class="space-y-4">
+                    <!-- Reviews will be dynamically added here -->
+                </ul>
+            </div>
+
+            <!-- Add Review Section -->
+            <div class="mt-6">
+                <textarea id="review-text" placeholder="Add a review..." class="w-full p-4 rounded bg-iceWhite text-charcoal border border-steelGray focus:outline-none focus:ring-2 focus:ring-softBlue transition duration-300"></textarea>
+                <button onclick="postReview()" class="mt-2 bg-vibrantOrange hover:bg-opacity-90 text-iceWhite font-semibold py-2 px-4 rounded flex items-center transition duration-300">
+                    <i class="fas fa-paper-plane mr-2"></i> Post Review
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

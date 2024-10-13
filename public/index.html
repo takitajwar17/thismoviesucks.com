@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This Movie Sucks</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        charcoal: '#333333',
+                        vibrantOrange: '#FF5733',
+                        steelGray: '#B0B4B6',
+                        iceWhite: '#F7F7F7',
+                        softBlue: '#87CEEB',
+                    },
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-iceWhite text-charcoal min-h-screen flex flex-col font-poppins">
+    <header class="bg-charcoal text-iceWhite shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-semibold">thismoviesucks.com</h1>
+            <button id="logout-btn" class="hidden bg-vibrantOrange hover:bg-opacity-90 text-iceWhite px-4 py-2 rounded transition duration-300 flex items-center">
+                <i class="fas fa-sign-out-alt mr-2"></i> Logout
+            </button>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-6 py-12">
+        <div class="max-w-md mx-auto">
+            <!-- Login Section -->
+            <div id="login-section" class="bg-white p-8 rounded-lg shadow-lg mb-8">
+                <h2 class="text-2xl font-semibold mb-6 text-center text-charcoal">Welcome Back</h2>
+                <div class="mb-6">
+                    <input type="text" id="username" placeholder="Enter your name" class="w-full px-4 py-3 rounded border border-steelGray text-charcoal placeholder-steelGray focus:outline-none focus:ring-2 focus:ring-softBlue focus:border-transparent transition duration-300">
+                </div>
+                <button id="login-btn" class="w-full bg-vibrantOrange hover:bg-opacity-90 text-iceWhite font-semibold py-3 rounded transition duration-300 flex items-center justify-center">
+                    <i class="fas fa-sign-in-alt mr-2"></i> Login
+                </button>
+            </div>
+
+            <!-- Signup Section -->
+            <div id="signup-section" class="bg-white p-8 rounded-lg shadow-lg">
+                <h2 class="text-2xl font-semibold mb-6 text-center text-charcoal">Join Us</h2>
+                <div class="mb-6">
+                    <input type="text" id="signup-username" placeholder="Choose a username" class="w-full px-4 py-3 rounded border border-steelGray text-charcoal placeholder-steelGray focus:outline-none focus:ring-2 focus:ring-softBlue focus:border-transparent transition duration-300">
+                </div>
+                <button id="signup-btn" class="w-full bg-softBlue hover:bg-opacity-90 text-charcoal font-semibold py-3 rounded transition duration-300 flex items-center justify-center">
+                    <i class="fas fa-user-plus mr-2"></i> Sign Up
+                </button>
+            </div>
+        </div>
+        
+        <!-- Content Section (shown when logged in) -->
+        <div id="content-section" class="mt-12 hidden">
+            <!-- Genre Buttons -->
+            <div id="tags-section" class="mb-8">
+                <h2 class="text-2xl font-semibold mb-4 text-charcoal">Explore Genres</h2>
+                <div class="flex flex-wrap gap-3" id="genre-buttons">
+                    <!-- Genre buttons will be dynamically added here -->
+                </div>
+            </div>
+
+            <!-- Movies List -->
+            <h2 class="text-2xl font-semibold mb-6 text-charcoal">Featured Movies</h2>
+            <div id="movies-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <!-- Movies will be dynamically added here -->
+            </div>  
+
+            <div class="mt-12 text-center">
+                <button id="profile-btn" class="bg-vibrantOrange hover:bg-opacity-90 text-iceWhite font-semibold py-3 px-6 rounded transition duration-300 flex items-center mx-auto">
+                    <i class="fas fa-user mr-2"></i> View Profile
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-charcoal text-center py-6 text-steelGray">
+        <p class="text-sm">&copy; 2024 thismoviesucks.com. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

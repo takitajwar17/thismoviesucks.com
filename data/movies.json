@@ -1,0 +1,264 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "tags": [
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "reviews": [
+      {
+        "username": "taki",
+        "review": "Mind-bending experience!"
+      },
+      {
+        "username": "fatima",
+        "review": "A masterpiece of storytelling."
+      }
+    ],
+    "description": "A thief who steals corporate secrets..."
+  },
+  {
+    "id": 2,
+    "title": "The Dark Knight",
+    "tags": [
+      "Action",
+      "Drama"
+    ],
+    "reviews": [
+      {
+        "username": "zain",
+        "review": "Best superhero movie ever!"
+      },
+      {
+        "username": "ali",
+        "review": "Heath Ledger was phenomenal."
+      },
+      {
+        "username": "sara",
+        "review": "A gripping tale of good vs evil."
+      }
+    ],
+    "description": "When the menace known as the Joker..."
+  },
+  {
+    "id": 3,
+    "title": "Interstellar",
+    "tags": [
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "reviews": [
+      {
+        "username": "bilal",
+        "review": "Visually stunning and thought-provoking."
+      },
+      {
+        "username": "emily",
+        "review": "A journey through time and space."
+      },
+      {
+        "username": "david",
+        "review": "An emotional rollercoaster."
+      }
+    ],
+    "description": "A team of explorers travel through a wormhole..."
+  },
+  {
+    "id": 4,
+    "title": "The Matrix",
+    "tags": [
+      "Sci-Fi",
+      "Action"
+    ],
+    "reviews": [
+      {
+        "username": "omar",
+        "review": "A revolutionary film for its time."
+      },
+      {
+        "username": "amina",
+        "review": "The concept of reality is mind-blowing."
+      }
+    ],
+    "description": "A computer hacker learns about the true nature of his reality..."
+  },
+  {
+    "id": 5,
+    "title": "Pulp Fiction",
+    "tags": [
+      "Crime",
+      "Drama"
+    ],
+    "reviews": [
+      {
+        "username": "samir",
+        "review": "Quentin Tarantino at his best."
+      },
+      {
+        "username": "laila",
+        "review": "A classic that never gets old."
+      },
+      {
+        "username": "zara",
+        "review": "The dialogue is just brilliant."
+      }
+    ],
+    "description": "The lives of two mob hitmen, a boxer, a gangster's wife..."
+  },
+  {
+    "id": 6,
+    "title": "The Shawshank Redemption",
+    "tags": [
+      "Drama"
+    ],
+    "reviews": [
+      {
+        "username": "taki",
+        "review": "A story of hope and friendship."
+      },
+      {
+        "username": "fatima",
+        "review": "One of the greatest films of all time."
+      }
+    ],
+    "description": "Two imprisoned men bond over a number of years..."
+  },
+  {
+    "id": 7,
+    "title": "Forrest Gump",
+    "tags": [
+      "Drama",
+      "Romance"
+    ],
+    "reviews": [
+      {
+        "username": "zain",
+        "review": "A beautiful story about life."
+      },
+      {
+        "username": "ali",
+        "review": "Tom Hanks is incredible in this role."
+      },
+      {
+        "username": "sara",
+        "review": "Life is like a box of chocolates."
+      }
+    ],
+    "description": "The presidencies of Kennedy and Johnson..."
+  },
+  {
+    "id": 8,
+    "title": "The Godfather",
+    "tags": [
+      "Crime",
+      "Drama"
+    ],
+    "reviews": [
+      {
+        "username": "bilal",
+        "review": "An epic tale of family and power."
+      },
+      {
+        "username": "emily",
+        "review": "A cinematic masterpiece."
+      }
+    ],
+    "description": "An organized crime dynasty's aging patriarch..."
+  },
+  {
+    "id": 9,
+    "title": "Gladiator",
+    "tags": [
+      "Action",
+      "Drama"
+    ],
+    "reviews": [
+      {
+        "username": "omar",
+        "review": "A gripping story of revenge."
+      },
+      {
+        "username": "amina",
+        "review": "Russell Crowe is phenomenal."
+      },
+      {
+        "username": "samir",
+        "review": "The action scenes are breathtaking."
+      }
+    ],
+    "description": "A former Roman General sets out to exact vengeance..."
+  },
+  {
+    "id": 10,
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "tags": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "reviews": [
+      {
+        "username": "taki",
+        "review": "An unforgettable journey."
+      },
+      {
+        "username": "anian",
+        "review": "A true epic."
+      },
+      {
+        "username": "fatima",
+        "review": "The visuals are stunning."
+      },
+      {
+        "username": "zain",
+        "review": "A perfect adaptation of the book."
+      }
+    ],
+    "description": "A hobbit named Frodo Baggins embarks on a quest..."
+  },
+  {
+    "id": 11,
+    "title": "Fight Club",
+    "tags": [
+      "Drama"
+    ],
+    "reviews": [
+      {
+        "username": "ali",
+        "review": "A mind-bending experience."
+      },
+      {
+        "username": "sara",
+        "review": "A film that makes you think."
+      }
+    ],
+    "description": "An insomniac office worker and a devil-may-care soap maker..."
+  },
+  {
+    "id": 12,
+    "title": "The Social Network",
+    "tags": [
+      "Biography",
+      "Drama"
+    ],
+    "reviews": [
+      {
+        "username": "bilal",
+        "review": "A fascinating look at the rise of Facebook."
+      },
+      {
+        "username": "emily",
+        "review": "A gripping drama about ambition."
+      },
+      {
+        "username": "david",
+        "review": "The dialogue is sharp and witty."
+      },
+      {
+        "username": "taki",
+        "review": "I didn't like the movie like others did.\n"
+      }
+    ],
+    "description": "As Harvard students create the social networking site..."
+  }
+]
