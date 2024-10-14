@@ -230,6 +230,7 @@ function addToList(listType) {
     .catch(error => console.error('Error adding to list:', error));
 }
 
+
 // Helper function to capitalize first letter
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
@@ -304,7 +305,6 @@ function loadMovieDetails() {
     // Load reviews
     loadReviews(movieId);
 }
-
 
 // Function to load profile data on profile.html
 function loadProfile() {
@@ -390,6 +390,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Additional page-specific initializations can be added here
 });
+
 
 // Optional: Function to handle back button on profile.html
 function setupBackButton() {

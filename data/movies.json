@@ -37,6 +37,18 @@
       {
         "username": "sara",
         "review": "A gripping tale of good vs evil."
+      },
+      {
+        "username": "takitajwar17",
+        "review": "Nice Movie!"
+      },
+      {
+        "username": "takitajwar17",
+        "review": "I liked it1"
+      },
+      {
+        "username": "anonymous17",
+        "review": "11/10!"
       }
     ],
     "description": "When the menace known as the Joker..."
@@ -60,6 +72,10 @@
       {
         "username": "david",
         "review": "An emotional rollercoaster."
+      },
+      {
+        "username": "takitajwar17",
+        "review": "Great Movie!"
       }
     ],
     "description": "A team of explorers travel through a wormhole..."
@@ -257,8 +273,642 @@
       {
         "username": "taki",
         "review": "I didn't like the movie like others did.\n"
+      },
+      {
+        "username": "takitajwar17",
+        "review": "Good One!"
       }
     ],
     "description": "As Harvard students create the social networking site..."
+  },
+  {
+    "id": 13,
+    "title": "The Silence of the Lambs",
+    "tags": [
+      "Thriller",
+      "Crime"
+    ],
+    "reviews": [
+      {
+        "username": "john",
+        "review": "A chilling masterpiece."
+      }
+    ],
+    "description": "A young FBI cadet must confide in an incarcerated and manipulative killer..."
+  },
+  {
+    "id": 14,
+    "title": "The Usual Suspects",
+    "tags": [
+      "Crime",
+      "Mystery"
+    ],
+    "reviews": [
+      {
+        "username": "jane",
+        "review": "A brilliant twist ending."
+      }
+    ],
+    "description": "A sole survivor tells of the events leading up to a horrific gun battle..."
+  },
+  {
+    "id": 15,
+    "title": "The Departed",
+    "tags": [
+      "Crime",
+      "Drama"
+    ],
+    "reviews": [
+      {
+        "username": "mike",
+        "review": "An intense crime thriller."
+      }
+    ],
+    "description": "An undercover cop and a mole in the police attempt to identify each other..."
+  },
+  {
+    "id": 16,
+    "title": "The Prestige",
+    "tags": [
+      "Drama",
+      "Mystery"
+    ],
+    "reviews": [
+      {
+        "username": "lucy",
+        "review": "A captivating tale of rivalry."
+      }
+    ],
+    "description": "Two magicians engage in a battle to create the ultimate stage illusion..."
+  },
+  {
+    "id": 17,
+    "title": "Se7en",
+    "tags": [
+      "Thriller",
+      "Mystery"
+    ],
+    "reviews": [
+      {
+        "username": "dave",
+        "review": "A dark and gripping story."
+      }
+    ],
+    "description": "Two detectives hunt a serial killer who uses the seven deadly sins as his modus operandi..."
+  },
+  {
+    "id": 18,
+    "title": "The Green Mile",
+    "tags": [
+      "Drama",
+      "Fantasy"
+    ],
+    "reviews": [
+      {
+        "username": "susan",
+        "review": "A touching story of humanity."
+      }
+    ],
+    "description": "The lives of guards on Death Row are affected by one of their charges..."
+  },
+  {
+    "id": 19,
+    "title": "The Lion King",
+    "tags": [
+      "Animation",
+      "Adventure"
+    ],
+    "reviews": [
+      {
+        "username": "leo",
+        "review": "A timeless classic."
+      }
+    ],
+    "description": "Lion prince Simba flees his kingdom after the death of his father..."
+  },
+  {
+    "id": 20,
+    "title": "Titanic",
+    "tags": [
+      "Drama",
+      "Romance"
+    ],
+    "reviews": [
+      {
+        "username": "rose",
+        "review": "A beautiful love story."
+      }
+    ],
+    "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist..."
+  },
+  {
+    "id": 21,
+    "title": "Avatar",
+    "tags": [
+      "Action",
+      "Adventure"
+    ],
+    "reviews": [
+      {
+        "username": "jake",
+        "review": "A visual spectacle."
+      }
+    ],
+    "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission..."
+  },
+  {
+    "id": 22,
+    "title": "Gladiator",
+    "tags": [
+      "Action",
+      "Drama"
+    ],
+    "reviews": [
+      {
+        "username": "maximus",
+        "review": "An epic tale of revenge."
+      }
+    ],
+    "description": "A former Roman General sets out to exact vengeance against the corrupt emperor..."
+  },
+  {
+    "id": 23,
+    "title": "The Incredibles",
+    "tags": [
+      "Animation",
+      "Action"
+    ],
+    "reviews": [
+      {
+        "username": "dash",
+        "review": "A fun superhero movie."
+      }
+    ],
+    "description": "A family of superheroes is forced to hide their powers and live a quiet suburban life..."
+  },
+  {
+    "id": 24,
+    "title": "Finding Nemo",
+    "tags": [
+      "Animation",
+      "Adventure"
+    ],
+    "reviews": [
+      {
+        "username": "marlin",
+        "review": "A heartwarming adventure."
+      }
+    ],
+    "description": "After his son is captured in the Great Barrier Reef and taken to Sydney..."
+  },
+  {
+    "id": 25,
+    "title": "Jurassic Park",
+    "tags": [
+      "Action",
+      "Adventure"
+    ],
+    "reviews": [
+      {
+        "username": "alan",
+        "review": "A thrilling dinosaur adventure."
+      }
+    ],
+    "description": "During a preview tour, a theme park suffers a major power breakdown..."
+  },
+  {
+    "id": 26,
+    "title": "The Matrix Reloaded",
+    "tags": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "reviews": [
+      {
+        "username": "neo",
+        "review": "An exciting sequel."
+      }
+    ],
+    "description": "Neo and the rebels fight to save humanity from the machines..."
+  },
+  {
+    "id": 27,
+    "title": "The Lion King 2: Simba's Pride",
+    "tags": [
+      "Animation",
+      "Adventure"
+    ],
+    "reviews": [
+      {
+        "username": "leo",
+        "review": "A worthy sequel to the original."
+      }
+    ],
+    "description": "Simba's daughter, Kiara, embarks on her own adventure."
+  },
+  {
+    "id": 28,
+    "title": "Finding Dory",
+    "tags": [
+      "Animation",
+      "Adventure"
+    ],
+    "reviews": [
+      {
+        "username": "marlin",
+        "review": "A heartwarming continuation of the story."
+      }
+    ],
+    "description": "Dory sets out to find her long-lost parents."
+  },
+  {
+    "id": 29,
+    "title": "Toy Story 4",
+    "tags": [
+      "Animation",
+      "Adventure"
+    ],
+    "reviews": [
+      {
+        "username": "buzz",
+        "review": "A delightful addition to the franchise."
+      }
+    ],
+    "description": "Woody and the gang embark on a road trip with a new toy."
+  },
+  {
+    "id": 30,
+    "title": "Frozen II",
+    "tags": [
+      "Animation",
+      "Adventure"
+    ],
+    "reviews": [
+      {
+        "username": "anna",
+        "review": "A magical journey of self-discovery."
+      }
+    ],
+    "description": "Elsa and Anna venture into the unknown to save their kingdom."
+  },
+  {
+    "id": 31,
+    "title": "Spider-Man: Into the Spider-Verse",
+    "tags": [
+      "Animation",
+      "Action"
+    ],
+    "reviews": [
+      {
+        "username": "miles",
+        "review": "A groundbreaking animated film."
+      }
+    ],
+    "description": "Teenager Miles Morales becomes Spider-Man and meets other Spider-People."
+  },
+  {
+    "id": 32,
+    "title": "Coco",
+    "tags": [
+      "Animation",
+      "Adventure"
+    ],
+    "reviews": [
+      {
+        "username": "miguel",
+        "review": "A beautiful story about family and music."
+      }
+    ],
+    "description": "A young boy named Miguel embarks on a journey to the Land of the Dead."
+  },
+  {
+    "id": 33,
+    "title": "Zootopia",
+    "tags": [
+      "Animation",
+      "Adventure"
+    ],
+    "reviews": [
+      {
+        "username": "judy",
+        "review": "A clever and entertaining film."
+      }
+    ],
+    "description": "A bunny cop and a cynical con artist fox must work together."
+  },
+  {
+    "id": 34,
+    "title": "Inside Out",
+    "tags": [
+      "Animation",
+      "Adventure"
+    ],
+    "reviews": [
+      {
+        "username": "joy",
+        "review": "A unique take on emotions."
+      }
+    ],
+    "description": "The emotions of a young girl navigate her life changes."
+  },
+  {
+    "id": 35,
+    "title": "Shrek 2",
+    "tags": [
+      "Animation",
+      "Comedy"
+    ],
+    "reviews": [
+      {
+        "username": "shrek",
+        "review": "A hilarious sequel with great characters."
+      }
+    ],
+    "description": "Shrek and Fiona visit her parents in the kingdom of Far Far Away."
+  },
+  {
+    "id": 36,
+    "title": "Kung Fu Panda",
+    "tags": [
+      "Animation",
+      "Action"
+    ],
+    "reviews": [
+      {
+        "username": "po",
+        "review": "An inspiring story of self-belief."
+      }
+    ],
+    "description": "A clumsy panda becomes an unlikely hero."
+  },
+  {
+    "id": 37,
+    "title": "Despicable Me",
+    "tags": [
+      "Animation",
+      "Comedy"
+    ],
+    "reviews": [
+      {
+        "username": "gru",
+        "review": "A fun and heartwarming film."
+      }
+    ],
+    "description": "A supervillain adopts three orphaned girls."
+  },
+  {
+    "id": 38,
+    "title": "The Secret Life of Pets",
+    "tags": [
+      "Animation",
+      "Comedy"
+    ],
+    "reviews": [
+      {
+        "username": "max",
+        "review": "A hilarious look at what pets do when their owners are away."
+      }
+    ],
+    "description": "The lives of pets are turned upside down when their owners leave."
+  },
+  {
+    "id": 39,
+    "title": "Ratatouille",
+    "tags": [
+      "Animation",
+      "Adventure"
+    ],
+    "reviews": [
+      {
+        "username": "remy",
+        "review": "A delightful story about following your dreams."
+      }
+    ],
+    "description": "A rat aspires to become a chef in Paris."
+  },
+  {
+    "id": 40,
+    "title": "WALL-E",
+    "tags": [
+      "Animation",
+      "Adventure"
+    ],
+    "reviews": [
+      {
+        "username": "walle",
+        "review": "A touching story with a powerful message."
+      }
+    ],
+    "description": "A small waste-collecting robot embarks on a space journey."
+  },
+  {
+    "id": 41,
+    "title": "The Imitation Game",
+    "tags": [
+      "Biography",
+      "Drama"
+    ],
+    "reviews": [
+      {
+        "username": "john",
+        "review": "A gripping portrayal of Alan Turing's life."
+      }
+    ],
+    "description": "The story of Alan Turing, a mathematician who helped crack the Enigma code."
+  },
+  {
+    "id": 42,
+    "title": "A Beautiful Mind",
+    "tags": [
+      "Biography",
+      "Drama"
+    ],
+    "reviews": [
+      {
+        "username": "sara",
+        "review": "An inspiring story of genius and struggle."
+      }
+    ],
+    "description": "The life of John Nash, a brilliant but asocial mathematician."
+  },
+  {
+    "id": 43,
+    "title": "The Pursuit of Happyness",
+    "tags": [
+      "Biography",
+      "Drama"
+    ],
+    "reviews": [
+      {
+        "username": "ali",
+        "review": "A heartwarming story of perseverance."
+      }
+    ],
+    "description": "A struggling salesman takes custody of his son as he embarks on a life-changing journey."
+  },
+  {
+    "id": 44,
+    "title": "The Sixth Sense",
+    "tags": [
+      "Thriller",
+      "Mystery"
+    ],
+    "reviews": [
+      {
+        "username": "taki",
+        "review": "A masterclass in suspense."
+      }
+    ],
+    "description": "A boy who communicates with spirits seeks the help of a disheartened child psychologist."
+  },
+  {
+    "id": 45,
+    "title": "Gone Girl",
+    "tags": [
+      "Thriller",
+      "Mystery"
+    ],
+    "reviews": [
+      {
+        "username": "fatima",
+        "review": "A thrilling and twisted narrative."
+      }
+    ],
+    "description": "A man becomes the prime suspect in the disappearance of his wife."
+  },
+  {
+    "id": 46,
+    "title": "Shutter Island",
+    "tags": [
+      "Thriller",
+      "Mystery"
+    ],
+    "reviews": [
+      {
+        "username": "zain",
+        "review": "A psychological thriller that keeps you guessing."
+      }
+    ],
+    "description": "A U.S. Marshal investigates a psychiatric facility after a patient goes missing."
+  },
+  {
+    "id": 47,
+    "title": "Prisoners",
+    "tags": [
+      "Thriller",
+      "Drama"
+    ],
+    "reviews": [
+      {
+        "username": "david",
+        "review": "A gripping tale of desperation."
+      }
+    ],
+    "description": "When his daughter goes missing, a father takes matters into his own hands."
+  },
+  {
+    "id": 48,
+    "title": "The Others",
+    "tags": [
+      "Thriller",
+      "Mystery"
+    ],
+    "reviews": [
+      {
+        "username": "emily",
+        "review": "A haunting and atmospheric film."
+      }
+    ],
+    "description": "A woman with two photosensitive children becomes convinced that their house is haunted."
+  },
+  {
+    "id": 49,
+    "title": "The Prestige",
+    "tags": [
+      "Drama",
+      "Mystery"
+    ],
+    "reviews": [
+      {
+        "username": "lucy",
+        "review": "A captivating tale of rivalry."
+      }
+    ],
+    "description": "Two magicians engage in a battle to create the ultimate stage illusion."
+  },
+  {
+    "id": 50,
+    "title": "The Shape of Water",
+    "tags": [
+      "Fantasy",
+      "Drama"
+    ],
+    "reviews": [
+      {
+        "username": "omar",
+        "review": "A beautiful and unique love story."
+      }
+    ],
+    "description": "A mute woman forms a unique relationship with an amphibious creature."
+  },
+  {
+    "id": 51,
+    "title": "Pan's Labyrinth",
+    "tags": [
+      "Fantasy",
+      "Drama"
+    ],
+    "reviews": [
+      {
+        "username": "amina",
+        "review": "A dark and enchanting fairy tale."
+      }
+    ],
+    "description": "In post-Civil War Spain, a young girl discovers a mysterious labyrinth."
+  },
+  {
+    "id": 52,
+    "title": "Spirited Away",
+    "tags": [
+      "Fantasy",
+      "Animation"
+    ],
+    "reviews": [
+      {
+        "username": "joy",
+        "review": "A breathtaking animated adventure."
+      }
+    ],
+    "description": "A young girl becomes trapped in a mysterious spirit world."
+  },
+  {
+    "id": 53,
+    "title": "The Fall",
+    "tags": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "reviews": [
+      {
+        "username": "remy",
+        "review": "A visually stunning and imaginative film."
+      }
+    ],
+    "description": "A stuntman in a hospital tells a fantastical story to a little girl."
+  },
+  {
+    "id": 54,
+    "title": "The Secret Garden",
+    "tags": [
+      "Fantasy",
+      "Drama"
+    ],
+    "reviews": [
+      {
+        "username": "susan",
+        "review": "A heartwarming tale of friendship and healing."
+      }
+    ],
+    "description": "A young girl discovers a hidden garden that changes her life."
   }
 ]
