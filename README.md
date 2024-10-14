@@ -36,9 +36,10 @@
    git clone https://github.com/takitajwar17/thismoviesucks.com.git
    ```
 
-2. Navigate to the project directory:
+2. Navigate to the directories:
    ```bash
-   cd thismoviesucks.com
+   cd thismoviesucks.com/server
+   cd thismoviesucks.com/public
    ```
 
 3. Install dependencies:
@@ -48,6 +49,7 @@
 
 4. Run the development server:
    ```bash
+   cd thismoviesucks.com/server
    npm run start
    ```
 
